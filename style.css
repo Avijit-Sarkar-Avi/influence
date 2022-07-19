@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Section  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: baseline;
+}
+
+span a {
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: auto;
+    padding: 10px;
+    color: black;
+}
+
+/* Header Section  */
+
+header {
+    display: flex;
+    margin: 10px 20px;
+}
+
+.head-details {
+    width: 50%;
+    padding: 40px;
+}
+
+.head-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.head-picture {
+    background-image: url('images/Circle\ design.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 20px 0 0 40px;
+}
+
+.head-picture img {
+    padding: 20px;
+    width: 70%;
+}
+
+/* For Logo  */
+
+.market-logos {
+    margin: 40px;
+}
+
+.market-logos img {
+    width: 70%;
+}
